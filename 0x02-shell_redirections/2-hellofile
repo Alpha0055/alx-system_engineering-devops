@@ -1,2 +1,2 @@
 #!/bin/bash
-:e /etc/passwd | :g/^/normal! gJ 
+cat /etc/passwd 
