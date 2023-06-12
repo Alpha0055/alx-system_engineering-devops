@@ -1,2 +1,2 @@
 #!/bin/bash
-vi +':1,10p' +':q!' /etc/passwd
+head -n 10 /etc/passwd
