@@ -1,0 +1,3 @@
+#!/bin/bash
+vi -c ":r!head -n 10 /etc/passwd"
+
