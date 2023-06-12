@@ -1,2 +1,2 @@
 #!/bin/bash
-vi -R /etc/passwd -c "split /etc/hosts"
+echo /etc/passwd /etc/hosts
