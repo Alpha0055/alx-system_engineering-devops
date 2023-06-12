@@ -1,2 +1,2 @@
 #!/bin/bash
-vi -R /etc/passwd
+:e /etc/passwd
