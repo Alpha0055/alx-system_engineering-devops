@@ -1,0 +1,2 @@
+#!/bin/bash
+BESTCHOL=`echo "import sys; print(int('$WATER', water) + int('$STIR', stir), end='')" | python3`
