@@ -1,2 +1,2 @@
 #!/bin/bash
-printf "$({ for i in {a..z}; do for j in {a..z}; do [[ $i$j == oo ]] || echo $i$j; done; done; } | sort)"
+seq -f "%g%g" 0 25 | tr -c "a-z" "\n" | grep -v "oo"
